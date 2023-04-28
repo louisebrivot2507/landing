@@ -1,0 +1,98 @@
+/* Write some CSS below */
+body { 
+  font-family: Inter;
+  color: #FFFFFF;
+  font-size: 18px;
+  text-align: center;
+  background-color: black;
+}
+
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/soiree2.jpeg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  padding: 150px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+h1 {
+  font-family: Luckiest Guy;
+  color: #F752E0;
+  font-size: 40px;
+}
+h2 {
+  font-family: Quicksand;
+  color: #3DD8FC;
+  font-size: 25px;
+}
+h3 {
+  font-family: Inter;
+  color: #000000;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+p {
+  font-family: Inter;
+  color: #000000;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+a {
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: lighter;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.button-blue {
+  background-color: #3DD8FC;
+  color: black;
+  padding: 16px 48px;
+  border-radius: 2px;
+  display: inline-block;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+
+.card-white {
+  background: white;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  width: 350px;
+  text-align: center;
+  padding: 24px;
+  margin-left:35px;
+}
+
+.card-white img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.card-white h3 {
+  margin-left: 0;
+}
+
+.footer {
+  background: #000000;
+  text-align: center;
+  padding: 24px;
+}
+
+.footer p {
+  color: white;
+  text-align: center;
+}
